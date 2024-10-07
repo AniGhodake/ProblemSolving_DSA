@@ -5,37 +5,37 @@ using namespace std;
 
 // } Driver Code Ends
 // class Solution{
-    public:
-    void scores(long long a[], long long b[], int &ca, int &cb)
-    {
-       int Acount = 0;
-       int Bcount = 0;
+//     public:
+//     void scores(long long a[], long long b[], int &ca, int &cb)
+//     {
+//        int Acount = 0;
+//        int Bcount = 0;
        
-       if(a[0]>b[0]){
-           Acount++;
-       }
-       else if(a[0]<b[0]){
-           Bcount++;
-       }
+//        if(a[0]>b[0]){
+//            Acount++;
+//        }
+//        else if(a[0]<b[0]){
+//            Bcount++;
+//        }
        
-       if(a[1]>b[1]){
-           Acount++;
-       }
-       else if(a[1]<b[1]){
-           Bcount++;
-       }
+//        if(a[1]>b[1]){
+//            Acount++;
+//        }
+//        else if(a[1]<b[1]){
+//            Bcount++;
+//        }
        
-       if(a[2]>b[2]){
-           Acount++;
-       }
-       else if(a[2]<b[2]){
-           Bcount++;
-       }
+//        if(a[2]>b[2]){
+//            Acount++;
+//        }
+//        else if(a[2]<b[2]){
+//            Bcount++;
+//        }
        
-       ca = Acount;
-       cb = Bcount;
-    }
-};
+//        ca = Acount;
+//        cb = Bcount;
+//     }
+// };
 
 //{ Driver Code Starts.
 int main()
