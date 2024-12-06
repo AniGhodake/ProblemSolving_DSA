@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Recursion3 {
 
     static void print(int arr[], int size){
@@ -13,7 +12,6 @@ class Recursion3 {
        if(start>end){
             return -1;
        }
-
         int mid = start+(end-start)/2;
 
         if(arr[mid] == target){
@@ -30,6 +28,7 @@ class Recursion3 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Size of Array :");
+
         int n = sc.nextInt();
         int arr[] = new int[n];
         System.out.println("Enter the "+n+" array elements :");
@@ -39,10 +38,8 @@ class Recursion3 {
 
         print(arr,n);
 
-
         System.out.println("Enter the Target Value");
         int target = sc.nextInt();
-
         int targetIndex = binSearch(arr,0,n-1,target);
         System.out.println("Target value found at index : "+targetIndex);
 
